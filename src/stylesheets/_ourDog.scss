@@ -1,0 +1,90 @@
+section.ourDogMainWrapper {
+    background-image: url("./assets/ourDog.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: left;
+    background-size: contain;
+    position: relative;
+    padding: 20px 0 60px;
+    margin-top: 50px;
+    .img-heading {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        padding-top: 10px;
+        background-image: url("./assets/Ellipse.png");
+    }
+
+    h1 {
+        font-family: Roboto;
+        font-size: 55px;
+        font-weight: 800;
+        line-height: 66px;
+        letter-spacing: 0em;
+        text-align: left;
+        text-transform: uppercase;
+        padding: 10px 0 30px 0;
+
+        span {
+            color: #F45866;
+        }
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr;
+        grid-gap: 50px 30px;
+        width: 70%;
+        margin-left: auto;
+        padding-top: 45px;
+        .items {
+            position: relative;
+            overflow: visible;
+            .img {
+                position: absolute;
+                left: 50%;
+                top: -13%;
+                transform: translateX(-50%);
+                background: #592E83;
+                padding: 10px;
+                border-radius: 50%;
+                width: 60px;
+                height: 60px;
+                z-index: 222;
+                overflow: visible;
+                text-align: center;
+                border: 0.5px solid #838383;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .content{
+                background: linear-gradient(243.55deg, #592E83 0%, #A768D3 100%);
+                box-shadow: 0px 0px 35px 12px #49494940;
+                border-radius: 20px;
+                padding: 25px 25px;
+                text-align: center;
+                height: 200px;
+                overflow-y: hidden;
+                h4{
+                    font-family: Roboto;
+                    font-size: 25px;
+                    font-weight: 600;
+                    text-align: center;
+                    margin: 0;
+                    padding-top: 40px;
+                }
+                p{
+                    font-family: Roboto;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+}

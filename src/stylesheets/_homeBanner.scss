@@ -1,0 +1,62 @@
+
+
+
+section.homeBanner{
+    background-image: url("https://jr-react-test-production.up.railway.app/files/section1_image.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: right;
+    background-size: contain;
+    position: relative;
+
+    .inner-content {
+        position: absolute;
+        background: none;
+        top: 20%;
+
+
+        .img{
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: left;
+            padding-top: 40px;
+            background-image: url("https://jr-react-test-production.up.railway.app/files/section1_eclipse.png");
+        }
+
+        h1{
+            font-family: Roboto;
+            font-size: 55px;
+            font-weight: 800;
+            line-height: 66px;
+            letter-spacing: 0em;
+            text-align: left;
+            text-transform: uppercase;
+            span{
+                color: #F45866;
+            }
+        }
+
+        button{
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 23px;
+            letter-spacing: 0em;
+            text-align: center;
+            border: 1.5px solid #FFFFFF;
+            box-shadow: 5px 5px 15px 0px #FFA62B3D;
+            background: linear-gradient(268.47deg, #FFA62B 2.18%, #FBBF6C 97.54%);
+            padding: 18px 40px;
+            border-radius: 30px;
+            transition: 0.5s;
+            cursor: pointer;
+            &:hover{
+                background: linear-gradient(268.47deg, #FBBF6C 2.18%, #FFA62B 97.54%);
+            }
+        }
+    }
+}
+
+
+

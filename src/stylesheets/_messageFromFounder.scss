@@ -1,0 +1,63 @@
+section.MessageFromFounder {
+    margin: 50px 0;
+
+    .top-wrapper {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        padding-top: 10px;
+        background-image: url("./assets/EllipseDog.png");
+        text-align: center;
+
+        h1 {
+            font-family: Roboto;
+            font-size: 55px;
+            font-weight: 800;
+            line-height: 66px;
+            letter-spacing: 0em;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 10px 0 30px 0;
+
+            span {
+                color: #F45866;
+            }
+        }
+    }
+
+    .bottom-wrapper {
+        p {
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: center;
+            width: 50%;
+            margin: auto;
+            padding: 20px 0;
+        }
+
+        button {
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 23px;
+            letter-spacing: 0em;
+            text-align: center;
+            border: 1.5px solid #FFFFFF;
+            box-shadow: 5px 5px 15px 0px #FFA62B3D;
+            background: linear-gradient(268.47deg, #FFA62B 2.18%, #FBBF6C 97.54%);
+            padding: 18px 40px;
+            border-radius: 30px;
+            transition: 0.5s;
+            cursor: pointer;
+            margin: auto;
+            display: block;
+            &:hover {
+                background: linear-gradient(268.47deg, #FBBF6C 2.18%, #FFA62B 97.54%);
+            }
+        }
+    }
+
+}

@@ -1,0 +1,95 @@
+section.whyDogs {
+    margin: 50px 0;
+
+    .top-wrapper {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        padding-top: 10px;
+        background-image: url("./assets/EllipseDog.png");
+        text-align: center;
+
+        h1 {
+            font-family: Roboto;
+            font-size: 55px;
+            font-weight: 800;
+            line-height: 66px;
+            letter-spacing: 0em;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 10px 0 30px 0;
+
+            span {
+                color: #F45866;
+            }
+        }
+    }
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 50px;
+
+
+        .items .item-inner {
+            background: linear-gradient(243.55deg, #592E83 0%, #A768D3 100%);
+            box-shadow: 0px 0px 35px 12px #49494940;
+            border-radius: 20px;
+            margin-bottom: 60px;
+            padding: 20px 40px;
+            box-shadow: 0px 0px 35px 12px #49494940;
+
+            h3{
+                font-family: Roboto;
+                font-size: 35px;
+                font-weight: 800;
+                text-align: center;
+                padding: 15px 0;
+                margin: 0;
+                color:#F45866;
+            }
+            h4 {
+                font-family: Roboto;
+                font-size: 25px;
+                font-weight: 800;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+
+            }
+            p{
+                font-family: Roboto;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0em;
+                text-align: center;
+            }
+
+        }
+
+    }
+
+    button{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+        border: 1.5px solid #FFFFFF;
+        box-shadow: 5px 5px 15px 0px rgba(255, 166, 43, 0.2392156863);
+        background: linear-gradient(268.47deg, #FFA62B 2.18%, #FBBF6C 97.54%);
+        padding: 18px 40px;
+        border-radius: 30px;
+        transition: 0.5s;
+        cursor: pointer;
+        margin: 30px auto 0;
+        display: block;
+        &:hover{
+            background: linear-gradient(268.47deg, #FBBF6C 2.18%, #FFA62B 97.54%);
+        }
+    }
+}

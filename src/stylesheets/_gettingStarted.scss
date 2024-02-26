@@ -1,0 +1,61 @@
+section.gettingStarted {
+
+    margin: 100px 0 50px;
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+
+
+        .inner-content {
+            h1 {
+                font-family: Roboto;
+                font-size: 55px;
+                font-weight: 800;
+                line-height: 66px;
+                letter-spacing: 0em;
+                text-align: left;
+                text-transform: uppercase;
+
+                span {
+                    color: #F45866;
+                }
+            }
+
+            p {
+                font-family: Roboto;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+
+            button {
+                font-family: Roboto;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 23px;
+                letter-spacing: 0em;
+                text-align: center;
+                border: 1.5px solid #FFFFFF;
+                box-shadow: 5px 5px 15px 0px #FFA62B3D;
+                background: linear-gradient(268.47deg, #FFA62B 2.18%, #FBBF6C 97.54%);
+                padding: 18px 40px;
+                border-radius: 30px;
+                transition: 0.5s;
+                cursor: pointer;
+
+                &:hover {
+                    background: linear-gradient(268.47deg, #FBBF6C 2.18%, #FFA62B 97.54%);
+                }
+            }
+        }
+
+        .inner-image img {
+            width: 100%;
+        }
+    }
+
+}

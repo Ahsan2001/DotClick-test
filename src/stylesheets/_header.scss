@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .logo h4 {
+        font-family: Lobster Two;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .menuLinks a {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+    }
+    .menuLinks a:not(:first-child) {
+        padding-left: 20px;
+    }
+}

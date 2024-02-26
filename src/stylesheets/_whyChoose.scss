@@ -1,0 +1,109 @@
+.whyChooseMainWrapper {
+
+    padding: 20px 0;
+
+    .inner-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        padding: 50px 0;
+
+        .img {
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            padding-top: 40px;
+            background-image: url("https://jr-react-test-production.up.railway.app/files/section2_exlipse.png");
+        }
+
+        h1 {
+            font-family: Roboto;
+            font-size: 55px;
+            font-weight: 800;
+            line-height: 66px;
+            letter-spacing: 0em;
+            text-align: center;
+            text-transform: uppercase;
+
+            span {
+                color: #F45866;
+            }
+        }
+
+        p{
+            font-family: Roboto;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 31px;
+            letter-spacing: 0em;
+            text-align: center;
+            width: 60%;
+        }
+
+
+
+        ul.inner-images {
+        
+            li img{
+                border-radius: 50%;
+            }
+
+            li.img1 img{
+                position: absolute;
+                top:0;
+                left: 25%;
+            }
+            li.img2{
+                position: absolute;
+                top:10%;
+                left: 2%;
+            }
+            li.img3{
+                position: absolute;
+                top:40%;
+                left: 5%;
+                img{
+                    width: 140px;
+                    height: 140px
+                }
+
+            }
+            li.img4{
+                position: absolute;
+                bottom: 0%;
+                left: 30%;
+            }
+            li.img8{
+                position: absolute;
+                top:0;
+                right: 20%;
+            }
+            li.img6{
+
+                position: absolute;
+                top:55%;
+                right: 5%;
+                img{
+                    width: 140px;
+                    height: 140px
+                }
+
+
+            }
+            li.img7{
+                position: absolute;
+                top: 30%;
+                right: 0;
+            }
+            li.img5{
+                position: absolute;
+                bottom: 0;
+                right: 32%;
+            }
+        }
+
+
+    }
+}
